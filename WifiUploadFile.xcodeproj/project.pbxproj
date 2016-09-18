@@ -1,0 +1,414 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E0E944703634B517606B847F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB56767DB64D160EF5DEEA84 /* libPods.a */; };
+		EEEFF7DB1D8ECB790000E486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7DA1D8ECB790000E486 /* main.m */; };
+		EEEFF7DE1D8ECB790000E486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7DD1D8ECB790000E486 /* AppDelegate.m */; };
+		EEEFF7E11D8ECB790000E486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7E01D8ECB790000E486 /* ViewController.m */; };
+		EEEFF7E41D8ECB790000E486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7E21D8ECB790000E486 /* Main.storyboard */; };
+		EEEFF7E61D8ECB790000E486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7E51D8ECB790000E486 /* Assets.xcassets */; };
+		EEEFF7E91D8ECB790000E486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7E71D8ECB790000E486 /* LaunchScreen.storyboard */; };
+		EEEFF7F41D8ED1BA0000E486 /* XXHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F11D8ED1BA0000E486 /* XXHTTPConnection.m */; };
+		EEEFF7F51D8ED1BA0000E486 /* XXMusicAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F31D8ED1BA0000E486 /* XXMusicAddViewController.m */; };
+		EEEFF7F71D8ED1C70000E486 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7F61D8ED1C70000E486 /* Web */; };
+		EEEFF7FA1D8ED20B0000E486 /* XXPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F91D8ED20B0000E486 /* XXPath.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		83164AA145F84EC330151C46 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B5BDD195DE25E3796C02D636 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		EEEFF7D61D8ECB780000E486 /* WifiUploadFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiUploadFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEEFF7DA1D8ECB790000E486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEEFF7DC1D8ECB790000E486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEEFF7DD1D8ECB790000E486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEEFF7DF1D8ECB790000E486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEEFF7E01D8ECB790000E486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEEFF7E31D8ECB790000E486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEEFF7E51D8ECB790000E486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEEFF7E81D8ECB790000E486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEEFF7EA1D8ECB790000E486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEEFF7F01D8ED1BA0000E486 /* XXHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXHTTPConnection.h; sourceTree = "<group>"; };
+		EEEFF7F11D8ED1BA0000E486 /* XXHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHTTPConnection.m; sourceTree = "<group>"; };
+		EEEFF7F21D8ED1BA0000E486 /* XXMusicAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMusicAddViewController.h; sourceTree = "<group>"; };
+		EEEFF7F31D8ED1BA0000E486 /* XXMusicAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMusicAddViewController.m; sourceTree = "<group>"; };
+		EEEFF7F61D8ED1C70000E486 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
+		EEEFF7F81D8ED20B0000E486 /* XXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPath.h; sourceTree = "<group>"; };
+		EEEFF7F91D8ED20B0000E486 /* XXPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPath.m; sourceTree = "<group>"; };
+		FB56767DB64D160EF5DEEA84 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEEFF7D31D8ECB780000E486 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0E944703634B517606B847F /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82B736EAD6907597298C55E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B5BDD195DE25E3796C02D636 /* Pods.debug.xcconfig */,
+				83164AA145F84EC330151C46 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C5DFFC97E88A3B9DB385F83E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FB56767DB64D160EF5DEEA84 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EEEFF7CD1D8ECB780000E486 = {
+			isa = PBXGroup;
+			children = (
+				EEEFF7D81D8ECB780000E486 /* WifiUploadFile */,
+				EEEFF7D71D8ECB780000E486 /* Products */,
+				82B736EAD6907597298C55E3 /* Pods */,
+				C5DFFC97E88A3B9DB385F83E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EEEFF7D71D8ECB780000E486 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEEFF7D61D8ECB780000E486 /* WifiUploadFile.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEEFF7D81D8ECB780000E486 /* WifiUploadFile */ = {
+			isa = PBXGroup;
+			children = (
+				EEEFF7DC1D8ECB790000E486 /* AppDelegate.h */,
+				EEEFF7DD1D8ECB790000E486 /* AppDelegate.m */,
+				EEEFF7DF1D8ECB790000E486 /* ViewController.h */,
+				EEEFF7E01D8ECB790000E486 /* ViewController.m */,
+				EEEFF7F01D8ED1BA0000E486 /* XXHTTPConnection.h */,
+				EEEFF7F11D8ED1BA0000E486 /* XXHTTPConnection.m */,
+				EEEFF7F21D8ED1BA0000E486 /* XXMusicAddViewController.h */,
+				EEEFF7F31D8ED1BA0000E486 /* XXMusicAddViewController.m */,
+				EEEFF7F81D8ED20B0000E486 /* XXPath.h */,
+				EEEFF7F91D8ED20B0000E486 /* XXPath.m */,
+				EEEFF7E21D8ECB790000E486 /* Main.storyboard */,
+				EEEFF7E51D8ECB790000E486 /* Assets.xcassets */,
+				EEEFF7E71D8ECB790000E486 /* LaunchScreen.storyboard */,
+				EEEFF7EA1D8ECB790000E486 /* Info.plist */,
+				EEEFF7D91D8ECB790000E486 /* Supporting Files */,
+			);
+			path = WifiUploadFile;
+			sourceTree = "<group>";
+		};
+		EEEFF7D91D8ECB790000E486 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEEFF7F61D8ED1C70000E486 /* Web */,
+				EEEFF7DA1D8ECB790000E486 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEEFF7D51D8ECB780000E486 /* WifiUploadFile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEEFF7ED1D8ECB790000E486 /* Build configuration list for PBXNativeTarget "WifiUploadFile" */;
+			buildPhases = (
+				B0807960BC1F6DBD595BB5F7 /* Check Pods Manifest.lock */,
+				EEEFF7D21D8ECB780000E486 /* Sources */,
+				EEEFF7D31D8ECB780000E486 /* Frameworks */,
+				EEEFF7D41D8ECB780000E486 /* Resources */,
+				A058BF41F089221C925CB4B0 /* Embed Pods Frameworks */,
+				EE333D94844C7CCFE6FAB41D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WifiUploadFile;
+			productName = WifiUploadFile;
+			productReference = EEEFF7D61D8ECB780000E486 /* WifiUploadFile.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEEFF7CE1D8ECB780000E486 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = jiang;
+				TargetAttributes = {
+					EEEFF7D51D8ECB780000E486 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EEEFF7D11D8ECB780000E486 /* Build configuration list for PBXProject "WifiUploadFile" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEEFF7CD1D8ECB780000E486;
+			productRefGroup = EEEFF7D71D8ECB780000E486 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEEFF7D51D8ECB780000E486 /* WifiUploadFile */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEEFF7D41D8ECB780000E486 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEFF7E91D8ECB790000E486 /* LaunchScreen.storyboard in Resources */,
+				EEEFF7F71D8ED1C70000E486 /* Web in Resources */,
+				EEEFF7E61D8ECB790000E486 /* Assets.xcassets in Resources */,
+				EEEFF7E41D8ECB790000E486 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A058BF41F089221C925CB4B0 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0807960BC1F6DBD595BB5F7 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE333D94844C7CCFE6FAB41D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEEFF7D21D8ECB780000E486 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEEFF7E11D8ECB790000E486 /* ViewController.m in Sources */,
+				EEEFF7F41D8ED1BA0000E486 /* XXHTTPConnection.m in Sources */,
+				EEEFF7FA1D8ED20B0000E486 /* XXPath.m in Sources */,
+				EEEFF7DE1D8ECB790000E486 /* AppDelegate.m in Sources */,
+				EEEFF7F51D8ED1BA0000E486 /* XXMusicAddViewController.m in Sources */,
+				EEEFF7DB1D8ECB790000E486 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EEEFF7E21D8ECB790000E486 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEFF7E31D8ECB790000E486 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEEFF7E71D8ECB790000E486 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEEFF7E81D8ECB790000E486 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEEFF7EB1D8ECB790000E486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEEFF7EC1D8ECB790000E486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEEFF7EE1D8ECB790000E486 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5BDD195DE25E3796C02D636 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WifiUploadFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daCheng.WifiUploadFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEEFF7EF1D8ECB790000E486 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83164AA145F84EC330151C46 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WifiUploadFile/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.daCheng.WifiUploadFile;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEEFF7D11D8ECB780000E486 /* Build configuration list for PBXProject "WifiUploadFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEFF7EB1D8ECB790000E486 /* Debug */,
+				EEEFF7EC1D8ECB790000E486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEEFF7ED1D8ECB790000E486 /* Build configuration list for PBXNativeTarget "WifiUploadFile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEEFF7EE1D8ECB790000E486 /* Debug */,
+				EEEFF7EF1D8ECB790000E486 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEEFF7CE1D8ECB780000E486 /* Project object */;
+}
