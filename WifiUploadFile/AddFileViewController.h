@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  AddFileViewController.h
 //  WifiUploadFile
 //
 //  Created by jiang on 16/9/18.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface AddFileViewController : UIViewController
 
 @end
-

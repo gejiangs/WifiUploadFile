@@ -1,9 +1,9 @@
 //
 //  XXHTTPConnection.m
-//  Xiuxiu
+//  WifiUploadFile
 //
-//  Created by mac on 14-10-12.
-//  Copyright (c) 2014年 yangdeger@gmail.com All rights reserved.
+//  Created by jiang on 16/9/18.
+//  Copyright © 2016年 jiang. All rights reserved.
 //
 
 #import <HTTPDataResponse.h>
@@ -14,7 +14,6 @@
 #import "MultipartMessageHeaderField.h"
 #import "HTTPMessage.h"
 #import "XXPath.h"
-//#import "../Config/Config.h"
 
 @interface XXStatusResponse : NSObject<HTTPResponse>
 

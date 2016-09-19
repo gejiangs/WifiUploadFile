@@ -1,27 +1,27 @@
 //
-//  XXMusicAddViewController.m
-//  Xiuxiu
+//  AddFileViewController.m
+//  WifiUploadFile
 //
-//  Created by mac on 14-10-6.
-//  Copyright (c) 2014年 yangdeger@gmail.com All rights reserved.
+//  Created by jiang on 16/9/18.
+//  Copyright © 2016年 jiang. All rights reserved.
 //
 
-#import "XXMusicAddViewController.h"
-//#import "../Managers/XXPath.h"
+#import "AddFileViewController.h"
 #import <ifaddrs.h>
 #import <arpa/inet.h>
-//#import "../Config/Config.h"
 #import <CocoaHTTPServer/HTTPServer.h>
 #import "XXHTTPConnection.h"
 
-@interface XXMusicAddViewController ()
+@interface AddFileViewController ()
 {
     HTTPServer *_httpServer;
 }
 
+@property (weak, nonatomic) IBOutlet UILabel *addressLabel;
+
 @end
 
-@implementation XXMusicAddViewController
+@implementation AddFileViewController
 
 - (void)viewDidLoad
 {

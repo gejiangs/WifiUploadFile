@@ -1,9 +1,9 @@
 //
 //  XXPath.h
-//  Stock
+//  WifiUploadFile
 //
-//  Created by deger on 11-5-25.
-//  Copyright 2011 __MyCompanyName__. All rights reserved.
+//  Created by jiang on 16/9/18.
+//  Copyright © 2016年 jiang. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

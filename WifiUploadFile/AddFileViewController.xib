@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddFileViewController">
+            <connections>
+                <outlet property="addressLabel" destination="oW2-bo-2Fb" id="LTM-iV-4Yp"/>
+                <outlet property="view" destination="iN0-l3-epB" id="0FJ-R7-iPu"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="HWf-cB-Tb5">
+                    <color key="backgroundColor" red="0.16078431372549021" green="0.078431372549019607" blue="0.18431372549019609" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="261" id="oBv-qr-aK1"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="wifi_indicator" translatesAutoresizingMaskIntoConstraints="NO" id="JHy-ZF-gkH"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="请在电脑浏览器地址栏输入" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IYg-kW-MfJ">
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oW2-bo-2Fb">
+                    <color key="backgroundColor" red="0.97948527340000002" green="0.94692015650000005" blue="0.89270937439999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="dpK-hI-C8Y"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="0.9247978926" green="0.30999666450000002" blue="0.57709801199999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="wifi_icon" translatesAutoresizingMaskIntoConstraints="NO" id="W1P-tW-uTs">
+                    <frame key="frameInset" minX="29" minY="329" width="72" height="51"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Wi-Fi模式已开启" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7er-ES-Tha">
+                    <frame key="frameInset" minX="108" minY="326" width="182" height="20"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                    <color key="textColor" red="0.2355700433" green="0.23253238200000001" blue="0.31813585760000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="已连接Wi-Fi" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1cp-iL-xQ7">
+                    <frame key="frameInset" minX="108" minY="348" width="182" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="手机与电脑务必在同一Wi-Fi内" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="30M-cc-8ok">
+                    <frame key="frameInset" minX="108" minY="364" width="182" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="传输过程中请不要关闭此界面或者锁屏" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xX-cU-mg5">
+                    <frame key="frameInset" minX="50" minY="429" width="221" height="21"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="oW2-bo-2Fb" firstAttribute="top" secondItem="IYg-kW-MfJ" secondAttribute="bottom" constant="8" id="D8X-jA-hsk"/>
+                <constraint firstItem="oW2-bo-2Fb" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="30" id="HZD-Y1-CSy"/>
+                <constraint firstItem="JHy-ZF-gkH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="Nh8-UL-kcK"/>
+                <constraint firstItem="JHy-ZF-gkH" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="83" id="R38-yW-Mg6"/>
+                <constraint firstAttribute="trailing" secondItem="oW2-bo-2Fb" secondAttribute="trailing" constant="30" id="ZPF-rH-zqb"/>
+                <constraint firstItem="IYg-kW-MfJ" firstAttribute="top" secondItem="JHy-ZF-gkH" secondAttribute="bottom" constant="33" id="avV-aT-gMM"/>
+                <constraint firstItem="HWf-cB-Tb5" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="ctw-Qo-gnm"/>
+                <constraint firstAttribute="trailing" secondItem="HWf-cB-Tb5" secondAttribute="trailing" id="jYE-yT-gaU"/>
+                <constraint firstItem="IYg-kW-MfJ" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="k0Y-Ey-WIQ"/>
+                <constraint firstItem="HWf-cB-Tb5" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="nxp-Bv-QXS"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="wifi_icon" width="71" height="50"/>
+        <image name="wifi_indicator" width="235" height="60"/>
+    </resources>
+</document>

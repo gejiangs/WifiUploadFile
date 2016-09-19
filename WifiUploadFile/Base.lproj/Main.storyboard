@@ -3,27 +3,10 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Music Add View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="XXMusicAddViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="722" y="727"/>
-        </scene>
         <!--Navigation Controller-->
         <scene sceneID="K0o-aT-nQY">
             <objects>
@@ -40,10 +23,10 @@
             </objects>
             <point key="canvasLocation" x="-55" y="-223"/>
         </scene>
-        <!--View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Z24-U4-tQJ">
             <objects>
-                <viewController id="xgC-Rb-fcd" customClass="ViewController" sceneMemberID="viewController">
+                <viewController id="xgC-Rb-fcd" customClass="HomeViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="I8l-ro-3Ei"/>
                         <viewControllerLayoutGuide type="bottom" id="Hns-Sy-dyM"/>
@@ -51,13 +34,31 @@
                     <view key="view" contentMode="scaleToFill" id="HlZ-N3-Kfx">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="trX-fg-uW9">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="xgC-Rb-fcd" id="bGA-lP-ZOR"/>
+                                    <outlet property="delegate" destination="xgC-Rb-fcd" id="G7r-mZ-uXv"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="trX-fg-uW9" firstAttribute="top" secondItem="I8l-ro-3Ei" secondAttribute="bottom" constant="-64" id="DBH-no-oDg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="trX-fg-uW9" secondAttribute="trailing" constant="-16" id="KAE-zz-dwc"/>
+                            <constraint firstItem="trX-fg-uW9" firstAttribute="leading" secondItem="HlZ-N3-Kfx" secondAttribute="leadingMargin" constant="-16" id="aAP-Py-zzi"/>
+                            <constraint firstItem="Hns-Sy-dyM" firstAttribute="top" secondItem="trX-fg-uW9" secondAttribute="bottom" id="oAt-YF-piL"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="QvN-fT-xEi"/>
+                    <connections>
+                        <outlet property="tableView" destination="trX-fg-uW9" id="Ndn-50-kcm"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hyP-KF-YSq" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="848" y="-215"/>
+            <point key="canvasLocation" x="849" y="-224"/>
         </scene>
     </scenes>
 </document>

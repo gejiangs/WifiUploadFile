@@ -7,36 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		ADCED3101D8FBAD400ED38DF /* AddFileViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ADCED30F1D8FBAD400ED38DF /* AddFileViewController.xib */; };
 		E0E944703634B517606B847F /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB56767DB64D160EF5DEEA84 /* libPods.a */; };
 		EEEFF7DB1D8ECB790000E486 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7DA1D8ECB790000E486 /* main.m */; };
 		EEEFF7DE1D8ECB790000E486 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7DD1D8ECB790000E486 /* AppDelegate.m */; };
-		EEEFF7E11D8ECB790000E486 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7E01D8ECB790000E486 /* ViewController.m */; };
+		EEEFF7E11D8ECB790000E486 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7E01D8ECB790000E486 /* HomeViewController.m */; };
 		EEEFF7E41D8ECB790000E486 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7E21D8ECB790000E486 /* Main.storyboard */; };
 		EEEFF7E61D8ECB790000E486 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7E51D8ECB790000E486 /* Assets.xcassets */; };
 		EEEFF7E91D8ECB790000E486 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7E71D8ECB790000E486 /* LaunchScreen.storyboard */; };
 		EEEFF7F41D8ED1BA0000E486 /* XXHTTPConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F11D8ED1BA0000E486 /* XXHTTPConnection.m */; };
-		EEEFF7F51D8ED1BA0000E486 /* XXMusicAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F31D8ED1BA0000E486 /* XXMusicAddViewController.m */; };
+		EEEFF7F51D8ED1BA0000E486 /* AddFileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F31D8ED1BA0000E486 /* AddFileViewController.m */; };
 		EEEFF7F71D8ED1C70000E486 /* Web in Resources */ = {isa = PBXBuildFile; fileRef = EEEFF7F61D8ED1C70000E486 /* Web */; };
 		EEEFF7FA1D8ED20B0000E486 /* XXPath.m in Sources */ = {isa = PBXBuildFile; fileRef = EEEFF7F91D8ED20B0000E486 /* XXPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		83164AA145F84EC330151C46 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		ADCED30F1D8FBAD400ED38DF /* AddFileViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddFileViewController.xib; sourceTree = "<group>"; };
 		B5BDD195DE25E3796C02D636 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		EEEFF7D61D8ECB780000E486 /* WifiUploadFile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WifiUploadFile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEEFF7DA1D8ECB790000E486 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EEEFF7DC1D8ECB790000E486 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EEEFF7DD1D8ECB790000E486 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		EEEFF7DF1D8ECB790000E486 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EEEFF7E01D8ECB790000E486 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEEFF7DF1D8ECB790000E486 /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		EEEFF7E01D8ECB790000E486 /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		EEEFF7E31D8ECB790000E486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EEEFF7E51D8ECB790000E486 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEEFF7E81D8ECB790000E486 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEEFF7EA1D8ECB790000E486 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EEEFF7F01D8ED1BA0000E486 /* XXHTTPConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXHTTPConnection.h; sourceTree = "<group>"; };
 		EEEFF7F11D8ED1BA0000E486 /* XXHTTPConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXHTTPConnection.m; sourceTree = "<group>"; };
-		EEEFF7F21D8ED1BA0000E486 /* XXMusicAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXMusicAddViewController.h; sourceTree = "<group>"; };
-		EEEFF7F31D8ED1BA0000E486 /* XXMusicAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXMusicAddViewController.m; sourceTree = "<group>"; };
+		EEEFF7F21D8ED1BA0000E486 /* AddFileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddFileViewController.h; sourceTree = "<group>"; };
+		EEEFF7F31D8ED1BA0000E486 /* AddFileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddFileViewController.m; sourceTree = "<group>"; };
 		EEEFF7F61D8ED1C70000E486 /* Web */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Web; sourceTree = "<group>"; };
 		EEEFF7F81D8ED20B0000E486 /* XXPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXPath.h; sourceTree = "<group>"; };
 		EEEFF7F91D8ED20B0000E486 /* XXPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXPath.m; sourceTree = "<group>"; };
@@ -95,12 +97,13 @@
 			children = (
 				EEEFF7DC1D8ECB790000E486 /* AppDelegate.h */,
 				EEEFF7DD1D8ECB790000E486 /* AppDelegate.m */,
-				EEEFF7DF1D8ECB790000E486 /* ViewController.h */,
-				EEEFF7E01D8ECB790000E486 /* ViewController.m */,
+				EEEFF7DF1D8ECB790000E486 /* HomeViewController.h */,
+				EEEFF7E01D8ECB790000E486 /* HomeViewController.m */,
 				EEEFF7F01D8ED1BA0000E486 /* XXHTTPConnection.h */,
 				EEEFF7F11D8ED1BA0000E486 /* XXHTTPConnection.m */,
-				EEEFF7F21D8ED1BA0000E486 /* XXMusicAddViewController.h */,
-				EEEFF7F31D8ED1BA0000E486 /* XXMusicAddViewController.m */,
+				EEEFF7F21D8ED1BA0000E486 /* AddFileViewController.h */,
+				EEEFF7F31D8ED1BA0000E486 /* AddFileViewController.m */,
+				ADCED30F1D8FBAD400ED38DF /* AddFileViewController.xib */,
 				EEEFF7F81D8ED20B0000E486 /* XXPath.h */,
 				EEEFF7F91D8ED20B0000E486 /* XXPath.m */,
 				EEEFF7E21D8ECB790000E486 /* Main.storyboard */,
@@ -186,6 +189,7 @@
 				EEEFF7F71D8ED1C70000E486 /* Web in Resources */,
 				EEEFF7E61D8ECB790000E486 /* Assets.xcassets in Resources */,
 				EEEFF7E41D8ECB790000E486 /* Main.storyboard in Resources */,
+				ADCED3101D8FBAD400ED38DF /* AddFileViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -244,11 +248,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EEEFF7E11D8ECB790000E486 /* ViewController.m in Sources */,
+				EEEFF7E11D8ECB790000E486 /* HomeViewController.m in Sources */,
 				EEEFF7F41D8ED1BA0000E486 /* XXHTTPConnection.m in Sources */,
 				EEEFF7FA1D8ED20B0000E486 /* XXPath.m in Sources */,
 				EEEFF7DE1D8ECB790000E486 /* AppDelegate.m in Sources */,
-				EEEFF7F51D8ED1BA0000E486 /* XXMusicAddViewController.m in Sources */,
+				EEEFF7F51D8ED1BA0000E486 /* AddFileViewController.m in Sources */,
 				EEEFF7DB1D8ECB790000E486 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -369,6 +373,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WifiUploadFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daCheng.WifiUploadFile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -381,6 +386,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = WifiUploadFile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.daCheng.WifiUploadFile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
